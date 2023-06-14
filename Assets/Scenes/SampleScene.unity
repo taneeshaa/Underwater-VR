@@ -2233,6 +2233,7 @@ GameObject:
   - component: {fileID: 877371803}
   - component: {fileID: 877371808}
   - component: {fileID: 877371809}
+  - component: {fileID: 877371810}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -2471,6 +2472,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_System: {fileID: 877371807}
   m_DelayTime: 0
+--- !u!114 &877371810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877371799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899541a0853e88d4c8d22eaad49385d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftTeleportation: {fileID: 430149045}
+  rightTeleportation: {fileID: 107968218}
+  leftActivate:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Activate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 066bd0a2-e7dc-48d5-846b-ddfe6892a7e4
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rightActivate:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Activate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 295c8cb9-7a78-4e00-a813-2f7938fa6591
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &917190477
 GameObject:
   m_ObjectHideFlags: 0
@@ -4897,7 +4936,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577597792}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.27, z: -8.45}
+  m_LocalPosition: {x: 0, y: 0, z: -8.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
