@@ -188,7 +188,7 @@ namespace KWS
         {
             var newPos = position;
             Handles.color = color;
-            newPos = Handles.FreeMoveHandle(newPos, Quaternion.identity, GetHandleSphereSize(position), Vector3.one, Handles.CylinderHandleCap);
+            var fmh_191_53_638240757290457752 = Quaternion.identity; newPos = Handles.FreeMoveHandle(newPos, GetHandleSphereSize(position), Vector3.one, Handles.CylinderHandleCap);
             return newPos;
         }
 
