@@ -18,7 +18,7 @@ MonoBehaviour:
     value: 1
   gradingMode:
     overrideState: 1
-    value: 0
+    value: 1
   externalLut:
     overrideState: 0
     value: {fileID: 0}
@@ -104,13 +104,13 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 1
-    value: {x: 0.87162715, y: 0.8638319, z: 1, w: 0}
+    value: {x: 0.42659444, y: 0.48144844, z: 1, w: 0}
   gamma:
     overrideState: 1
-    value: {x: 0.6822961, y: 0.67680025, z: 1, w: 0}
+    value: {x: 1, y: 0.9588426, z: 0.7058556, w: 0}
   gain:
     overrideState: 1
-    value: {x: 0.6524291, y: 0.73638386, z: 1, w: 0}
+    value: {x: 0.72311574, y: 0.7864613, z: 1, w: 0}
   masterCurve:
     overrideState: 0
     value:
@@ -1345,7 +1345,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 29.8
+    value: 26.3
   threshold:
     overrideState: 1
     value: 1
@@ -1391,14 +1391,14 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   focusDistance:
-    overrideState: 0
-    value: 10
+    overrideState: 1
+    value: 35.55
   aperture:
-    overrideState: 0
-    value: 5.6
+    overrideState: 1
+    value: 1
   focalLength:
     overrideState: 0
     value: 50
   kernelSize:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 0
