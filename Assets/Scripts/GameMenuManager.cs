@@ -27,6 +27,6 @@ public class GameMenuManager : MonoBehaviour
         }
 
         menu.transform.LookAt(new Vector3(head.position.x, menu.transform.position.y, head.position.z));
-        //menu.transform.forward *= -1;
+        menu.transform.forward *= -1;
     }
 }
